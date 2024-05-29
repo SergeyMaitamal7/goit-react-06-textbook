@@ -17,6 +17,7 @@ const rootReducer = combineReducers({
   tasks: tasksReducer,
   filter: filtersReducer,
 });
+
 const persistConfig = {
   key: 'root',
   storage,
